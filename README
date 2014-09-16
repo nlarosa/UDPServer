@@ -1,0 +1,30 @@
+
+Nicholas LaRosa
+CSE 30264, Program 2
+
+Files:
+
+udpserver.c
+
+	Source code for UDP server, written in C, compiled with the following command: 		gcc udpserver.c -o udpserver
+
+udpserver
+		
+	Executable version of the UDP server, used with the following command:			./udpserver
+
+	UDP server will listen on port 9979 of whichever host it is executed from. End the server with CTRL^C.
+
+File1.txt
+File2.txt
+File3.txt
+
+        Test files to be sent to the server at port 9979 of machine running server
+
+Result1.txt
+Result2.txt
+Result3.txt
+
+        Result files from the corresponding test files
+        The results were retrieved from the server at port 9979 of machine running server
+        The server successfully inverted the sent buffer and appended a timestamp
+
